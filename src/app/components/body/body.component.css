@@ -1,0 +1,65 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.container .col1{
+  background-color: papayawhip;
+  width: 20rem;
+  height: 10rem;
+  align-self: center;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+  border: 2px solid blue;
+}
+.container .col2{
+ background-color: rgb(228, 156, 41);
+  width: 20rem;
+  height: 15rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border: 2px solid blueviolet;
+}
+section .row{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+footer{
+  position:sticky;
+  background-color: darkslategrey;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+footer a{
+  color:rgb(235, 248, 45);
+  align-self: center;
+}
+
+footer a:hover{
+  color: rgb(187, 187, 218);
+}
+a::after{
+  content: '💥';
+}
+
+footer p::before{
+  content: "💖";
+}
+
+
+
+@media (min-width:360px){
+
+}
+
+@media (max-width:360px){
+    .container{
+        display: block;
+    }
+}

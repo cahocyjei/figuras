@@ -1,0 +1,43 @@
+header{
+  background-color:darkslategrey;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: space-around;
+}
+header h2{
+  color: white;
+  font-size: 3rem;
+  text-align: auto;
+}
+.container{
+    display: flex;
+}
+header h2{
+  color: white;
+  font-size: 3rem;
+  align-self: auto;
+}
+
+header div img{
+  width: 10rem;
+  height:10rem;
+  border-radius: 100%;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+
+@media(max-width:720px){
+  header{
+    display: block;
+  }
+  header h2{
+    font-size: 2rem;
+  }
+  .container{
+    display: block;
+  }
+
+}

@@ -1,0 +1,27 @@
+<h2 style="text-align: center;font-size: 2rem;">Halla el Perimetro y el Area de tu figura Geometrica</h2>
+<section class="container">
+  <div class="col1">
+    <h2 style="text-align: center">Escoge la Figura</h2>
+    <div style="display: flex; justify-content: space-around;" action="">
+      <ul>
+        <li style="font-size: 1rem;">Cuadrado<input type="checkbox" #check1 (click)= "onCheck1()"></li>
+        <li style="font-size: 1rem;">Circulo <input type="checkbox" #check2 (click)="onCheck2()"></li>
+      </ul>
+      <p style="align-self: center;font-size: 1.5rem;" #nameFigure></p>
+    </div>
+  </div>
+  <div class="col2">
+    <div style="display: flex;">
+      <div class="col">
+        <h2 style="text-align: center;">CALCULA</h2>
+        <label style="margin-left: 1rem; color: white;font-size: 1.5rem;" for="idmeasure">Introduce una Medida</label>
+        <input style="width: 3rem;height: 1.5rem; border-radius: .5rem;" type="number" [(ngModel)]="amount">
+        <p style="font-size: 1.5rem;color: rgb(20, 6, 102);text-align: center;">{{result}}</p>
+        <div class="row">
+          <input  style="background-color: blue;height: 2rem;color: aliceblue;border-radius: .5rem;" value= "Perimetro" type="button" (click)="calcularPerimetro()">
+          <input style="background-color: brown;height: 2rem;color: white;border-radius: .5rem;" type="button" value="Area" (click)= "calcularArea()">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

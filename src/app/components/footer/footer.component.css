@@ -1,0 +1,44 @@
+footer{
+  position:sticky;
+  background-color: darkslategrey;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+footer a{
+  color:rgb(235, 248, 45);
+  align-self: center;
+}
+
+footer a:hover{
+  color: rgb(187, 187, 218);
+}
+a::after{
+  content: '💥';
+}
+
+footer p::before{
+  content: "💖";
+}
+
+footer h6{
+  color: white;
+  align-self: center;
+}
+
+footer p{
+  align-self: center;
+}
+
+@media (max-width:720px){
+  footer h6{
+    font-size: .5rem;
+  }
+  footer a{
+    font-size: .5rem;
+  }
+  footer p{
+    font-size: .5rem;
+  }
+}
