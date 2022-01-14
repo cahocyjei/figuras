@@ -1,4 +1,8 @@
 # Figuras
+Página Web de Matemáticas
+
+Operaciones para hallar el perímetro y el area
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
